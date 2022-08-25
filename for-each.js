@@ -1,6 +1,7 @@
 const friends = ['Tom Hanks', 'Tom Cruise', 'Tom Brady', 'Tom  Jerry'];
+// products.forEach(friend => console.log(friend));
 
-friends.forEach(friend => console.log(friend));
+
 
 
 const products = [
@@ -9,5 +10,7 @@ const products = [
     {id:3, name: 'watch', price: 64000},
     {id:4, name: 'tablet', price: 24000},
 ]
+products.forEach(friend => console.log(friend));
 
-products.forEach(product => console.log(product));
+// const all = products.forEach(product => product);
+// console.log(all);
